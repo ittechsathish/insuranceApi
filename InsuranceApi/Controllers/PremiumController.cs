@@ -11,6 +11,10 @@ public class PremiumController(IPremiumService _premiumService) : AppUserControl
     {
         double monthlyPremium = _premiumService.CalculateMonthlyPremium(calculatePremiumDTO);
 
-        return Ok(monthlyPremium);
+        return Ok(new
+        {
+            Status = "Success",
+            Result = monthlyPremium
+        });
     }
 }
