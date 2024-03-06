@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceCore", "InsuranceC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceInfrastructure", "InsuranceInfrastructure\InsuranceInfrastructure.csproj", "{AA228161-8B0E-479E-B6F3-253BA1EE2FF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceTest", "InsuranceTest\InsuranceTest.csproj", "{8DA01089-8118-4813-A035-9DFA14300812}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{AA228161-8B0E-479E-B6F3-253BA1EE2FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA228161-8B0E-479E-B6F3-253BA1EE2FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA228161-8B0E-479E-B6F3-253BA1EE2FF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DA01089-8118-4813-A035-9DFA14300812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA01089-8118-4813-A035-9DFA14300812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA01089-8118-4813-A035-9DFA14300812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DA01089-8118-4813-A035-9DFA14300812}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

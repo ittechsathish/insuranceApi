@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Configuration.AddEnvironmentVariables();
 var service = builder.Services;
 
+// DI
 service.AddScoped<IPremiumService, PremiumService>();
 
 // Add services to the container.
