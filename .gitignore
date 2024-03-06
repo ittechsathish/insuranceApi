@@ -1,0 +1,8 @@
+# .NET Scaffolding
+bin/
+obj/
+
+**/bin/
+**/obj/
+
+published
