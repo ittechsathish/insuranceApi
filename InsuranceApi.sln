@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceApi", "InsuranceApi\InsuranceApi.csproj", "{B4FF8718-22DC-4117-AE53-C7DE1C9DC1D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceCore", "InsuranceCore\InsuranceCore.csproj", "{0D81955E-FA79-49D7-B1D4-2580331DEAFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceInfrastructure", "InsuranceInfrastructure\InsuranceInfrastructure.csproj", "{AA228161-8B0E-479E-B6F3-253BA1EE2FF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4FF8718-22DC-4117-AE53-C7DE1C9DC1D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4FF8718-22DC-4117-AE53-C7DE1C9DC1D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4FF8718-22DC-4117-AE53-C7DE1C9DC1D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4FF8718-22DC-4117-AE53-C7DE1C9DC1D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D81955E-FA79-49D7-B1D4-2580331DEAFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D81955E-FA79-49D7-B1D4-2580331DEAFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D81955E-FA79-49D7-B1D4-2580331DEAFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D81955E-FA79-49D7-B1D4-2580331DEAFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA228161-8B0E-479E-B6F3-253BA1EE2FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA228161-8B0E-479E-B6F3-253BA1EE2FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA228161-8B0E-479E-B6F3-253BA1EE2FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA228161-8B0E-479E-B6F3-253BA1EE2FF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
